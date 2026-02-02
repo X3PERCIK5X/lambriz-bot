@@ -1,0 +1,6 @@
+{
+  "botToken": "PASTE_TELEGRAM_BOT_TOKEN_HERE",
+  "webAppUrl": "https://your-miniapp-domain.example",
+  "logoPath": "./assets/logo.png",
+  "welcomeText": "Ламбриз — поставка оборудования и изделий из нержавейки. Откройте каталог и оформите заявку прямо в Mini App."
+}
