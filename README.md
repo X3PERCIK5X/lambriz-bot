@@ -31,3 +31,14 @@ Mini App (локально):
 Примечание по отправке заявок:
 - В mini‑app заявка отправляется POST‑запросом на `orderEndpoint`.
 - Этот endpoint должен на сервере отправлять письмо на `orderRecipientEmail`.
+
+Локальный API для отправки заявок на почту:
+1) Добавить SMTP параметры в `config.env`:
+   - `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`
+   - `SMTP_USER`, `SMTP_PASS`
+   - `MAIL_TO`
+2) Запустить API:
+   - `python order_api.py`
+3) Проверить:
+   - `GET /health`
+   - `POST /api/order`
